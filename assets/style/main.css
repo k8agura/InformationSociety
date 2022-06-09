@@ -1,0 +1,41 @@
+.img-container{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+.img-page{
+    border-radius: 10px;
+}
+.h-contaner{
+    font-family: Roboto;
+    font-size: larger;
+    color: lightgray;
+    margin-top: 2%;
+}
+.text-container{
+    width: 35%;
+    font-family: Roboto;
+    font-size: large;
+    color: lightgray;
+}
+.img-link{
+    margin-top: 3%;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+.btn-learnMore{
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: #174128;
+}
+.a-btn{
+    font-family: Roboto;
+    font-size: large;
+    color: #174128;
+    text-decoration: none;
+}
