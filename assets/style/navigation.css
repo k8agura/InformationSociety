@@ -3,8 +3,10 @@ nav {
     width: 100%;
     background: lightgray;
     font-size: 18pt;
-    font-family: Roboto;
+    font-family: Calibri;
     position: relative;
+    display: flex;
+    flex-direction: row;
 }
 nav ul {
     padding: 0;
@@ -50,7 +52,7 @@ nav a:hover, nav a:active {
 nav a#pull {
     display: none;
 }
-@media screen and (max-width: 600px) {
+@media (min-width: 600px) and (max-width: 1050px) {
     nav {
         height: auto;
     }
@@ -65,9 +67,27 @@ nav a#pull {
         position: relative;
     }
     nav a {
-        text-align: left;
+        text-align: center;
         width: 100%;
-        text-indent: 25px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    nav {
+        height: auto;
+    }
+    nav ul {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    nav li {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+    nav a {
+        text-align: center;
+        width: 100%;
     }
 }
 @media only screen and (max-width : 320px) {

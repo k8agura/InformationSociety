@@ -21,7 +21,11 @@ main{
     margin-bottom: 2%;
 }
 footer{
-    display: flex;
-    flex-direction: row;
     width: 100%;
+}
+@media (min-width : 2560px) and (max-width : 3560px) {
+    footer{
+        position: fixed;
+        bottom: 0%;
+    }
 }

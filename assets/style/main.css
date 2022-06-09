@@ -7,14 +7,17 @@
     border-radius: 10px;
 }
 .h-contaner{
-    font-family: Roboto;
+    font-family: Calibri;
     font-size: larger;
     color: lightgray;
     margin-top: 2%;
 }
 .text-container{
     width: 35%;
-    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Calibri;
     font-size: large;
     color: lightgray;
 }
@@ -34,7 +37,7 @@
     border: #174128;
 }
 .a-btn{
-    font-family: Roboto;
+    font-family: Calibri;
     font-size: large;
     color: #174128;
     text-decoration: none;
